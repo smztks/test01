@@ -9,6 +9,6 @@
 
 object sample01 {
   def main(args: Array[String]) {
-    println("sample01")
+    println("sample01a")
   }
 }
