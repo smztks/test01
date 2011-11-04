@@ -7,8 +7,20 @@
  * To change this template use File | Settings | File Templates.
  */
 
+import org.scalatest.FunSuite
+
+class ElementSuite extends FunSuite {
+  test("elem result should have passed 1") {
+    val elem = 1
+    assert(elem == 1)
+  }
+}
+
 object sample01 {
   def main(args: Array[String]) {
     println("sample01")
+
+    val es = new ElementSuite
+    es.execute()
   }
 }
