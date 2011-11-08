@@ -10,7 +10,7 @@
 import org.scalatest.FunSuite
 
 class ElementSuite extends FunSuite {
-  test("elem result should have passed 1") {
+  test("elem result should have passed") {
     val elem = 1
     assert(elem == 1)
   }
