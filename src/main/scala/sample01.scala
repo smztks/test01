@@ -13,6 +13,7 @@ class ElementSuite extends FunSuite {
   test("elem result should have passed") {
     val elem = 1
     assert(elem == 1)
+    a
   }
 }
 
