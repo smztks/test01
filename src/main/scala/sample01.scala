@@ -18,7 +18,7 @@ class ElementSuite extends FunSuite {
 
 object sample01 {
   def main(args: Array[String]) {
-    println("sample01n")
+    println("sample01o")
 
     val es = new ElementSuite
     es.execute()
